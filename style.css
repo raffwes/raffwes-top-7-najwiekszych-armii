@@ -1,0 +1,161 @@
+.content 
+{
+	margin: 0 auto;
+	
+	background-color:#4247A6;
+}
+	
+.header 
+{
+	
+	color:yellow;
+	height: 500px;
+	background-color: #000CF2;
+	background-image:url(img/main.jpg);
+	background-attachment:scroll;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100%,100%;
+	text-align:center;
+	font-weight:bold;
+	font-size:60pt;
+	text-transform:uppercase;
+	letter-spacing:0.5cm;
+}
+
+.menu1 
+{
+	height: 125px;
+	background-color:#0008A6;
+	text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:red;
+}
+
+.homepage	
+{	
+	margin-top:25px;
+	margin-bottom:25px;
+	width:100%;
+	float:left;
+}
+
+.spacemaker
+{	
+	background-color:#0008A6;
+	width:15%;
+	float:left;
+	color:#0008A6;
+	margin-bottom:25px;
+}
+
+.subpage
+{	
+	color:red;
+	width:10%;
+	float:left;
+}
+
+a
+{
+	color:red;
+}
+
+.aside
+{
+	
+	width:auto;
+	height:auto;
+	text-align:center;
+	font-weight:bold;
+	border:1px solid black;
+	
+}
+	
+.menu2
+{
+	text-align:center;
+	width: 15%;
+	height:auto;
+	background-color:#4247A6;
+	float: left;
+}
+
+.opcja
+{
+	margin-top:25px;
+	margin-bottom:25px;
+	width:100%;
+	float:center;
+}
+
+.tresc
+{
+	width:85%;
+	float: left;
+	background-color: #FFFFFF;
+	
+	
+}
+
+.n1
+{
+
+	background-color:#6168F2;
+	text-align:center;
+	font-weight:bold;
+	font-size:25pt;
+	text-transform:uppercase;
+	letter-spacing:0.2cm;
+	word-spacing:0.5cm;
+}
+
+.p1
+{
+	
+	text-align:justify;
+	font-size:15pt;
+	margin-top:75px;
+	margin-bottom:50px;
+	margin-left:150px;
+	margin-right:150px;
+	font-weight:lighter;
+	
+}
+
+.foto
+{
+	max-width:1400px;
+	display:block;
+	margin: 50px auto;
+}
+
+.footer 
+{
+	text-align:center;
+	font-weight:bold;
+	height: 50px;
+	background-color:#595959;
+	clear: both;
+}
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+#ladowanie {
+	display: block;
+	position: absolute;
+	top: 0;
+	_top: 50%; /* IE */
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('img/loading.gif') no-repeat center center;
+}
+#zdjecie, #miniaturki {
+	width: 1400px;
+	position: relative;
+}
+#miniaturki img {
+	margin: 5px;
+	cursor: pointer;
+}
